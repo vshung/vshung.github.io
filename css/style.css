@@ -1,101 +1,11 @@
-*{
-  box-sizing: border-box;
-}
-.title{
-  font-size: 30px;
-  text-align: center;
-  color: #e5e5e5;
-  text-shadow: -1px 0 black, 0 1px black, 7px 0 4px black, 0 -1px black;
-}
-body{
-  background-color: #34373e;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif
 }
 
-/* left-middle-right */
-.left{
-  float: left;
-  width:37%;
-  padding-right: 20px;
-  text-align: right;
-  color: #e5e5e5;
-}
-.middle{
-  background-color: #303d4e;
-  float: left;
-  width:26%;
-  padding:10px;
-  margin-top:0;
-  text-align:center;
-  color: white;
-}
-.right{
-  float:left;
-  width:37%;
-  padding-left: 20px;
-  text-align:left;
-  color: #e5e5e5;
+.set-margin {
+  margin-top: 15px;
 }
 
-/* Bo cong góc cho ảnh */
-img{
-  border-radius:15%;
-  -moz-border-radius:15%;
-  -webkit-border-radius:15%;
-}
-img.set-center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-}
-
-.set-text{
-  text-align: center;
-}
-.set-year{
-  font-size: 25px;
-}
-
-@media only screen and (max-width:620px){
-  /* for mobile phones: */
-  .middle, .left, .right{
-    width:100%;
-  }
-}
-
-/* skills bar */
-.container{
-  width: 100%; 
-  background-color: #ddd; 
-  border: 1px solid black;
-}
-.skills{
-  text-align: right;
-  line-height: 30px; 
-  color: white; 
-}
-.html{
-  width: 70%; 
-  background-color: #4CAF50;
-} 
-.css{
-  width: 40%; 
-  background-color: #2196F3;
-}
-.js{
-  width: 30%; 
-  background-color: #f44336;
-} 
-.photoshop{
-  width: 50%; 
-  background-color: #808080;
-}
-
-iframe{
-  margin-top: 10px;
-}
-
-#for-experiences{
-  margin-top: 30px;
+.icon-footer i:hover {
+  background-color: #d8d8d8;
 }
