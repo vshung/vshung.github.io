@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.top{
+	height: 240px;
+	background-color: #EEE8AA;
+	text-align: center;
+
+}
+
+.middle1{
+	height: 400px;
+	background-color: #EEE8AA;
+
+}
+
+.middle2{
+	height: 1100px;
+	background-color: #EEE8AA;
+
+
+}
+
+.bottom{
+	height: 400px;
+	background-color: #EEE8AA;
+	background-image: url(../img/background.jpg);	
+}
+#middle{
+	text-align: center;
+	padding: 30px;
+	margin-top: 30px;
+	border: 2px solid red;
+	font-size: 30px;
+}
+#note{
+	font-size: 10px;
+}
+
+
+a:link{
+	background-color: #f44336;
+	padding: 15px 25px;
+	margin: 20px;
+	text-align: center;
+	display: inline-block;
+}
+a:visited{
+	background-color: #aa2f26;
+	padding: 15px 25px;
+	margin: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color:red;
+}
+#id1{
+	color: #00FFFF;
+}
+
+.link-decoration{
+	text-decoration: none;
+	color: white;
+}
+
+.text-color-link{
+	color: black;
+}
+
+#btn1{
+	margin: 10px;
+}
+
+#btn2{
+	margin: 10px;
+	background-color: #f44336;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.tag{
+	font-size: 20px;
+}
+
+#image{
+	height: 450px;
+	width: 600px;
+
+}
+
+#danmeo{
+	background-color: #f44336;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	border: 2px solid crimson;
+}
+
+.menu{
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th{
+	text-align: left;
+}
+#table{
+	width: 50%;
+}

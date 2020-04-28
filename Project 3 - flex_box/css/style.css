@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ddd;
+    height: 50px;
+}
+
+.flex-header {
+    display: flex;
+}
+
+.logo {
+    flex: 25%;
+    background-color: aquamarine;
+}
+
+.header-main {
+    flex: 50%;
+}
+
+.header-action {
+    flex: 25%;
+    background-color: blueviolet;
+}
+
+#account,
+#search,
+#cart {
+    flex: 30%;
+}
+
+#set-text {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #ddd;
+}
+
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #ddd;
+}
+
+li ul {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+}
+
+ul li a:hover {
+    background: #e04749;
+}
+
+li:hover>ul {
+    display: block;
+    position: absolute;
+}
+
+li:hover li {
+    float: none;
+}
+
+li:hover a {
+    background: #ddd;
+}
+
+li:hover li a:hover {
+    background: #e11b1e;
+}
+
+.main-navigation li ul li {
+    border-top: 0;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul:before,
+ul:after {
+    content: " ";
+    display: table;
+}
+
+ul:after {
+    clear: both;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+}
+
+.side {
+    flex: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #606060;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.main {
+    flex: 80%;
+    background-color: white;
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 5px;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    height: 100px;
+}
