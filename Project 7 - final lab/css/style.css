@@ -210,6 +210,13 @@ hr {
   text-decoration: none;
 }
 
+/* Fixed */
+div.fixed {
+  position: fixed;
+  top: 87px;
+  right: 20px;
+}
+
 /* ---Media--- */
 
 @media (max-width: 768px) {
