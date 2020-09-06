@@ -1,12 +1,12 @@
 /* Header top */
 .header-top {
-    display: flex;
+    display: none;
     flex-wrap: nowrap;
     height: 29px;
     background-color: #111;
 }
 
-.header-top>div {
+.header-top > div {
     width: 25%;
     text-align: center;
     font-size: 15px;
@@ -81,6 +81,11 @@
     color: #e74c3c;
 }
 
+.navbar-brand img {   
+    height: 40px;
+    width: auto;
+}
+
 .navbar-icon-top .navbar-nav .nav-link>.fa {
     position: relative;
     width: 36px;
@@ -121,7 +126,7 @@ li.dropdown:hover>.dropdown-menu {
     padding: 0;
 }
 
-/* Evnet */
+/* Event */
 .event img {
     width: 100%;
     height: auto;
@@ -286,15 +291,32 @@ hr {
 
 /* Media */
 @media only screen and (min-width: 600px) {
-
+    .navbar-brand img {
+        height: 50px;
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .navbar-brand img {
+        height: 60px;
+        width: auto;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .header-top {
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .searchbar:hover>.search_input {
+    .navbar-brand {
+        height: auto;
+    }
+
+    .searchbar:hover > .search_input {
         width: 180px;
     }
 

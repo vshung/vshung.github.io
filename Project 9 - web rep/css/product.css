@@ -6,6 +6,10 @@ img {
     max-width: 100%;
 }
 
+h5 {
+  font-size: 1em;
+}
+
 .preview {
     display: -webkit-box;
     display: -webkit-flex;
@@ -115,16 +119,13 @@ img {
 .size {
     margin-right: 10px; 
 }
-.size:first-of-type {
-    margin-left: 40px; 
-}
 
 .color {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
-    height: 2em;
-    width: 2em;
+    height: 1.2em;
+    width: 1.2em;
     border-radius: 2px; 
 }
 .color:first-of-type {
@@ -199,4 +200,16 @@ img {
         -webkit-transform: scale(1);
                 transform: scale(1);
         } 
+}
+@media only screen and (min-width: 992px) {
+    h5 {
+      font-size: 1.25em;
+    }
+    .size:first-of-type {
+        margin-left: 40px; 
+    }
+    .color {
+        height: 2em;
+        width: 2em;
+    }
 }

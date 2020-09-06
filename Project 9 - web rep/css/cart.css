@@ -1,3 +1,9 @@
+body{
+  font-size: 0.4em;
+}
+h5 {
+  font-size: 0.5em;
+}
 .bloc_left_price {
     color: #c01508;
     text-align: center;
@@ -47,10 +53,49 @@
 .pagination {
     margin-top: 20px;
 }
+.btn, .form-control{
+  font-size: 0.5em;
+}
+.discount {
+  text-align: center;
+}
+
 footer {
     background: #343a40;
     padding: 40px;
 }
 footer a {
     color: #f8f9fa!important
+}
+
+@media only screen and (min-width: 600px) {
+    .ml {
+        margin-left: 1em;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+    h5 {
+        font-size: 1.25em;
+    }
+    .bloc_left_price {
+        font-size: 75%;
+    }
+    .add_to_cart_block .price {
+        font-size: 150%;
+    }
+    .add_to_cart_block .price_discounted {
+        font-size: 170%;
+    }
+    .discount {
+      text-align: left;
+    }
+    .input-group {
+      padding: 0.5em;
+    }
+    .btn, .form-control{
+      font-size: 1em;
+    }
 }
